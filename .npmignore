@@ -1,0 +1,26 @@
+# Only publish CLI and essentials
+src/
+cli/
+.next/
+.env*
+data/
+test-output/
+e2e/
+node_modules/
+vitest.config.ts
+tsconfig.json
+next.config.ts
+postcss.config.mjs
+eslint.config.mjs
+pnpm-workspace.yaml
+pnpm-lock.yaml
+.gitignore
+.git/
+AGENTS.md
+CLAUDE.md
+*.test.ts
+*.spec.ts
+test*.json
+analyze_result.js
+deploy.py
+cookies.txt

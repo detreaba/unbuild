@@ -1,0 +1,62 @@
+{
+  "name": "unbuild-dev",
+  "version": "0.1.0",
+  "description": "Deep reverse engineering for repos and websites — architectural blueprints, CLAUDE.md, and multi-agent implementation plans",
+  "bin": {
+    "unbuild-dev": "./dist-cli/index.js"
+  },
+  "keywords": [
+    "reverse-engineering",
+    "website-clone",
+    "ai",
+    "prompt",
+    "blueprint",
+    "architecture",
+    "claude",
+    "cursor",
+    "codex",
+    "code-generation",
+    "CLAUDE.md",
+    "agents",
+    "unbuild"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/detreaba/unbuild"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build:cli": "tsc -p cli/tsconfig.json",
+    "prepublishOnly": "npm run build:cli"
+  },
+  "dependencies": {
+    "framer-motion": "^12.38.0",
+    "jose": "^6.2.2",
+    "lucide-react": "^1.7.0",
+    "next": "16.2.2",
+    "playwright": "^1.59.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.2",
+    "jsdom": "^29.0.2",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^2.1.9"
+  }
+}
