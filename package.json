@@ -1,6 +1,6 @@
 {
   "name": "unbuild-dev",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Deep reverse engineering for repos and websites — architectural blueprints, CLAUDE.md, and multi-agent implementation plans",
   "bin": {
     "unbuild-dev": "./dist-cli/index.js"
